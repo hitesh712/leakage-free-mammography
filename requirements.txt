@@ -1,0 +1,15 @@
+# Enough to re-run the analysis from the released predictions (no GPU needed):
+#   python rev08_analysis.py
+#   python rev11_validate_stats.py
+numpy==1.23.5
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+matplotlib==3.10.9
+
+# Additionally required to rebuild patches and retrain from the raw images:
+# opencv-python-headless==4.13.0.92
+# pydicom==3.0.2
+# tensorflow==2.10.0            # main pipeline (with tensorflow-directml-plugin==0.4.0.dev230202)
+# torch==2.5.1+cu124            # architecture sweep and whole-image baseline
+# timm==1.0.27

@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or the released predictions, please cite the paper below."
+title: "Leakage-free patch-based mammography classification: code, splits and per-sample predictions"
+abstract: >-
+  Reproducibility package for a leakage-free, patch-based transfer-learning study
+  on CBIS-DDSM, Mini-MIAS and INbreast. Includes the full experiment suite, the
+  exact split manifests (with the patient-disjoint repair of the CBIS-DDSM
+  official split), per-sample predicted probabilities for every dataset, seed and
+  architecture, environment records, and a validation script for the DeLong
+  implementation.
+authors:
+  - family-names: Kag
+    given-names: Hitesh
+    affiliation: "Department of Computer Engineering (AI, ML & DS), Marwadi University, Rajkot, India"
+  - family-names: Kumar
+    given-names: Dinesh
+    affiliation: "School of Artificial Intelligence, Bennett University, Greater Noida, India"
+  - family-names: Diwan
+    given-names: Anjali
+    affiliation: "Department of Computer Engineering, Marwadi University, Rajkot, India"
+license: MIT
+keywords:
+  - mammography
+  - data leakage
+  - external validation
+  - reproducibility
+  - transfer learning
+preferred-citation:
+  type: article
+  title: "Breast Lesion Classification: Leakage-Free Patch-Based Transfer Learning with Cross-Dataset Evaluation on CBIS-DDSM, MIAS and INbreast"
+  authors:
+    - family-names: Kag
+      given-names: Hitesh
+    - family-names: Kumar
+      given-names: Dinesh
+    - family-names: Diwan
+      given-names: Anjali
+  journal: "Jordanian Journal of Computers and Information Technology (JJCIT)"
+  year: 2026
