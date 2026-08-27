@@ -1,0 +1,37 @@
+{
+  "tensorflow": "2.10.0",
+  "numpy": "1.23.5",
+  "pandas": "2.3.3",
+  "opencv": "4.13.0",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "gpus": [
+    "/physical_device:GPU:0",
+    "/physical_device:GPU:1"
+  ],
+  "seeds": [
+    2021,
+    7,
+    123,
+    42,
+    2024,
+    5,
+    777,
+    31337,
+    99,
+    1234
+  ],
+  "patch": 224,
+  "batch": 16,
+  "phase1": {
+    "epochs": 5,
+    "lr": 0.001,
+    "trainable": "head only"
+  },
+  "phase2": {
+    "epochs": 20,
+    "lr": 1e-05,
+    "unfrozen_layers": 40,
+    "early_stopping": "val_auc, patience 5, restore best"
+  }
+}

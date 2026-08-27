@@ -1,0 +1,20 @@
+{
+  "source_youden_threshold": 0.5035646,
+  "source_prevalence": 0.42282466112811545,
+  "arms": [
+    "official",
+    "patient_disjoint"
+  ],
+  "seeds": [
+    5,
+    7,
+    42,
+    99,
+    123,
+    777,
+    1234,
+    2021,
+    2024,
+    31337
+  ]
+}

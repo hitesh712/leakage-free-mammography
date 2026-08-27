@@ -1,0 +1,13 @@
+{
+  "n_films": 322,
+  "rotations": 12,
+  "folds": 5,
+  "majority_class_accuracy": 0.6429,
+  "leaky_accuracy": 0.736,
+  "leaky_accuracy_std": 0.0211,
+  "leaky_auc": 0.7922,
+  "corrected_accuracy": 0.5556,
+  "corrected_accuracy_std": 0.0502,
+  "corrected_auc": 0.4234,
+  "corrected_auc_std": 0.085
+}

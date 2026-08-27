@@ -1,0 +1,7 @@
+dataset,split,patients,images,lesions,patches,benign,malignant
+CBIS-DDSM,train,1248,2458,2863,2863,1682,1181
+CBIS-DDSM,test,349,399,704,704,428,276
+Mini-MIAS,external test,104,111,119,119,68,51
+INbreast,external test,50,107,132,132,43,89
+CBIS-DDSM (whole image),train,1248,2458,2863,2458,1347,1111
+CBIS-DDSM (whole image),test,234,399,422,399,233,166

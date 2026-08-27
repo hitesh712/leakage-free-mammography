@@ -1,0 +1,14 @@
+{
+  "task": "bm",
+  "n_films": 115,
+  "rotations": 36,
+  "folds": 5,
+  "majority_class_accuracy": 0.5565,
+  "leaky_accuracy": 0.9761,
+  "leaky_accuracy_std": 0.0065,
+  "leaky_auc": 0.9971,
+  "corrected_accuracy": 0.513,
+  "corrected_accuracy_std": 0.0507,
+  "corrected_auc": 0.4997,
+  "corrected_auc_std": 0.0723
+}
