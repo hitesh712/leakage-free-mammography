@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this code or the released predictions, please cite the paper below."
 title: "Leakage-free patch-based mammography classification: code, splits and per-sample predictions"
 abstract: >-
@@ -19,6 +19,7 @@ authors:
     given-names: Anjali
     affiliation: "Department of Computer Engineering, Marwadi University, Rajkot, India"
 license: MIT
+repository-code: "https://github.com/hitesh712/leakage-free-mammography"
 keywords:
   - mammography
   - data leakage
